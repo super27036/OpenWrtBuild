@@ -10,7 +10,7 @@ sed -i 's/OpenWrt/SUPERouter/g' package/base-files/files/bin/config_generate
 sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0:0:99999:7:::/$1$S2TRFyMU$E8fE0RRKR0jNadn3YLrSQ0:18690:0:99999:7:::/g' package/lean/default-settings/files/zzz-default-settings
 
 # 禁用 IPv6
-sed -i 's/def_bool y/def_bool n/g' config/Config-build.in
+# sed -i 's/def_bool y/def_bool n/g' config/Config-build.in
 
 
 # 更改默认 Shell 为 zsh
